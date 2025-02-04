@@ -30,7 +30,7 @@ async function onClick() {
 <style scoped>
 .text_copy {
   display: flex;
-  gap: 1rem;
+  gap: 10px;
   justify-content: space-between;
   padding: 1rem 0;
 }
@@ -39,6 +39,7 @@ async function onClick() {
   justify-content: center;
   flex-direction: column;
   margin-top: 2px;
+  min-width: 72px;
 }
 .btn_copy {
   font-family: "NanumSquare", sans-serif;
