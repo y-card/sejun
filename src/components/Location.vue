@@ -33,7 +33,7 @@ const props = defineProps({
   <div :class="['text_locations', type]">
     <LocationText title="주차안내">
       <p class="text">
-        - 
+        - 돌잔치 당일 현장에서 방문차량 등록 가능합니다. (주차지원 3시간 )
       </p>
       <br/>
     </LocationText>

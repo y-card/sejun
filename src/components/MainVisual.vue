@@ -30,6 +30,7 @@ const props = defineProps({
   max-height: 813px;
   transform: translateX(-50%);
   margin-left: 50%;
+  opacity: 0.85;
 }
 
 .main_visual .main_title,
@@ -43,25 +44,23 @@ const props = defineProps({
   margin: 0 auto;
   color: #fff;
   text-align: center;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: bolder;
   line-height: 50px;
 }
 .main_visual .main_name {
   position: absolute;
-  top: 73px;
+  top: 80px;
   font-size: 50px;
   letter-spacing: 2px;
   color: #333;
-  text-shadow: -1px 0px #dfdfdf, 0px 1px #dfdfdf, 1px 0px #dfdfdf, 0px -1px #dfdfdf;
   line-height: 60px;
 }
 
 .main_visual .description {
-  top: 125px;
+  top: 130px;
   font-size: 22px;
   color: #333;
-  opacity: 0.9;
 }
 
 .main_visual .footer {
